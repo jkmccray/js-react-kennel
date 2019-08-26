@@ -1,23 +1,70 @@
 {
   "animals": [
-      { "id": 1, "name": "Doodles", "breed": "Poodle"},
-      { "id": 2, "name": "Decker", "breed": "German Sheperd" },
-      { "id": 3, "name": "Esme", "breed": "Pitbull" }
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull"
+    }
   ],
   "owners": [
-      { "id": 1, "name": "Moe", "info": "Cool"},
-      { "id": 2, "name": "Joe", "info": "Animal Lover" },
-      { "id": 3, "name": "Po", "info": "Crazy Cat Lady" }
+    {
+      "id": 1,
+      "name": "Moe",
+      "phone_number": "555-2918"
+    },
+    {
+      "id": 2,
+      "name": "Joe",
+      "phone_number": "834-9258"
+    },
+    {
+      "id": 3,
+      "name": "Po",
+      "phone_number": "492-1947"
+    }
   ],
   "employees": [
-      { "id": 1, "name": "Bee", "info": "Worked here for 10 years"},
-      { "id": 2, "name": "Dee", "info": "Has 10 gerbils" },
-      { "id": 3, "name": "Lee", "info": "Loves pitbulls" }
+    {
+      "id": 1,
+      "name": "Bee",
+      "info": "Worked here for 10 years"
+    },
+    {
+      "id": 2,
+      "name": "Dee",
+      "info": "Has 10 gerbils"
+    },
+    {
+      "id": 3,
+      "name": "Lee",
+      "info": "Loves pitbulls"
+    }
   ],
   "locations": [
-      { "id": 1, "name": "Doodles", "address": "100 Animal Way"},
-      { "id": 2, "name": "Decker", "address": "200 Gimme All The Animals Blvd" },
-      { "id": 3, "name": "Esme", "address": "300 Pets 4 Lyfe Ct" }
+    {
+      "id": 1,
+      "name": "Location 1",
+      "address": "100 Animal Way"
+    },
+    {
+      "id": 2,
+      "name": "Second Location",
+      "address": "200 Gimme All The Animals Blvd"
+    },
+    {
+      "id": 3,
+      "name": "Never Go To A Second Location!!!",
+      "address": "300 Pets 4 Lyfe Ct"
+    }
   ]
-
 }
