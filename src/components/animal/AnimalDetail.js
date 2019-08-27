@@ -23,7 +23,7 @@ class AnimalDetail extends Component {
             breed: animal.breed,
             loadingStatus: false
           });
-        } else {console.log(animal)}
+        }
       });
   }
 

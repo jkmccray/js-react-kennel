@@ -4,7 +4,7 @@ class NoLongerAvailable extends Component {
   render() {
     return (
       <p>
-        Sorry, this page is no longer available
+        Sorry, this page is not available
       </p>
     )
   }
