@@ -37,6 +37,13 @@ class OwnerList extends Component {
 
         return (
             <div className="container-cards">
+                <section className="section-content">
+                    <button type="button"
+                        className="btn"
+                        onClick={() => { this.props.history.push("/owners/new") }}>
+                        Add Owner
+                    </button>
+                </section>
                 {this.state.owners.map(owner =>
                     <OwnerCard
                         key={owner.id}

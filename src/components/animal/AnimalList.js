@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //import the components we will need
 import AnimalCard from './AnimalCard'
 import AnimalManager from '../../modules/AnimalManager'
-
+import AnimalForm from './AnimalForm'
 
 class AnimalList extends Component {
   //define what this component needs to render
@@ -38,11 +38,18 @@ class AnimalList extends Component {
 
     return (
       <div className="container-cards">
+        <section className="section-content">
+          <button type="button"
+            className="btn"
+            onClick={() => { this.props.history.push("/animals/new") }}>
+            Admit Animal
+          </button>
+        </section>
         {this.state.animals.map(animal =>
           <AnimalCard
-          key={animal.id}
-          animal={animal}
-          deleteAnimal={this.deleteAnimal}
+            key={animal.id}
+            animal={animal}
+            deleteAnimal={this.deleteAnimal}
           />
         )}
       </div>
