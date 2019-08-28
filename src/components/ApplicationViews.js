@@ -16,7 +16,7 @@ import Login from './auth/Login'
 
 class ApplicationViews extends Component {
 
-  isAuthenticated = () => localStorage.getItem("credentials") !== null
+  isAuthenticated = () => localStorage.getItem("credentials") !== null || sessionStorage.getItem("credentials") !== null
 
   render() {
     return (
