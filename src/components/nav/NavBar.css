@@ -36,3 +36,7 @@ nav .container a {
 nav .container a:hover {
   color: maroon;
 }
+
+.lime:visited, .lime:link {
+  color: lime;
+}
